@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Outermost radar ring path -->
+    <path
+        android:strokeWidth="1.5"
+        android:strokeColor="#1BFFFFFF"
+        android:fillColor="#00000000"
+        android:pathData="M 54 14 A 40 40 0 1 1 53.9 14 Z" />
+
+    <!-- Innermost radar ring path -->
+    <path
+        android:strokeWidth="2.0"
+        android:strokeColor="#3300E5FF"
+        android:fillColor="#00000000"
+        android:pathData="M 54 26 A 28 28 0 1 1 53.9 26 Z" />
+
+    <!-- Glow/Shadow backdrop for the pin -->
+    <path
+        android:fillColor="#2200E5FF"
+        android:pathData="M 54 18 C 41 18 31 28 31 41 C 31 58 54 84 54 84 C 54 84 77 58 77 41 C 77 28 67 18 54 18 Z" />
+
+    <!-- Main Solid Neon GPS Pin -->
+    <path
+        android:fillColor="#00E5FF"
+        android:pathData="M 54 22 C 43.5 22 35 30.5 35 41 C 35 55 54 78 54 78 C 54 78 73 55 73 41 C 73 30.5 64.5 22 54 22 Z Z" />
+
+    <!-- Center Cutout Dot of Pin -->
+    <path
+        android:fillColor="#0B1220"
+        android:pathData="M 54 48 C 50.1 48 47 44.9 47 41 C 47 37.1 50.1 34 54 34 C 57.9 34 61 37.1 61 41 C 61 44.9 57.9 48 54 48 Z" />
+
+</vector>
